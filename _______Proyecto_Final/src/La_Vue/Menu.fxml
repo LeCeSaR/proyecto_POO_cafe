@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="Le_Controlle.MenuController">
+   <children>
+      <Pane layoutX="13.0" layoutY="13.0" prefHeight="425.0" prefWidth="674.0" style="-fx-background-color: #9BD39C; -fx-background-radius: 20px;">
+         <children>
+            <TabPane layoutX="15.0" layoutY="19.0" prefHeight="388.0" prefWidth="645.0" style="-fx-background-color: #3333; -fx-background-radius: 20px;" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab style="-fx-background-color: #fff; -fx-background-radius: 15px;" text="Home">
+                     <content>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #86CA89; -fx-background-radius: 20px;">
+                           <children>
+                              <Pane layoutX="5.0" layoutY="12.0" prefHeight="335.0" prefWidth="636.0" style="-fx-background-color: #72C175; -fx-background-radius: 20px;">
+                                 <children>
+                                    <ImageView fitHeight="331.0" fitWidth="558.0" layoutX="39.0" layoutY="51.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Le_Img/borys-kernytskyi-olive-way.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </content>
+                  </Tab>
+                <Tab style="-fx-background-color: #fff; -fx-background-radius: 15px;" text="Shop" />
+                  <Tab style="-fx-background-color: #fff; -fx-background-radius: 15px;" text="Products" />
+                  <Tab style="-fx-background-color: #fff; -fx-background-radius: 15px;" text="Stores" />
+                  <Tab style="-fx-background-color: #fff; -fx-background-radius: 15px;" text="About Us" />
+              </tabs>
+            </TabPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
